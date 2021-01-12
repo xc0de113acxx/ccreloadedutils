@@ -7,5 +7,5 @@ CoolCraft Reloaded Utilities is a mod that is designed to be in the modpack Cool
 1. Clone this repo.
 2. CD in to it.
 3. Run:
-  * Linux/MACOS: chmod +x gradlew && ./gradlew build
-  * Windows (CMD {Win+R, type cmd}, not Powershell): gradlew build
+  * Linux/MACOS: `chmod +x gradlew && ./gradlew build`
+  * Windows (CMD {Win+R, type cmd}, not Powershell): `gradlew build`
