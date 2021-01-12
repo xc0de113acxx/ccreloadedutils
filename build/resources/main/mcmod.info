@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ccreloadedutils",
+  "name": "CoolCraft Reloaded Utilities",
+  "description": "CoolCraft Reloaded Utilities",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["RedstoneWizard08"],
+  "credits": "RedstoneWizard08, IDTech, and Minecraft Forge",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
