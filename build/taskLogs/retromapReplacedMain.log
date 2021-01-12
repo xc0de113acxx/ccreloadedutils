@@ -1,0 +1,772 @@
+Processing 13 files
+Start Processing: com/j1hnt/game/minecraft/mod/BaseMod.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: com.j1hnt.game.minecraft.mod.block.QuickBlock
+Import: com.j1hnt.game.minecraft.mod.item.ItemMod
+Import: com.j1hnt.game.minecraft.mod.item.QuickItem
+Import: com.j1hnt.game.minecraft.mod.proxy.CommonProxy
+Import: com.j1hnt.game.minecraft.mod.world.WorldMod
+Import: net.minecraft.block.Block
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.Mod.EventHandler
+Import: net.minecraftforge.fml.common.Mod.Instance
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+End  Processing: com/j1hnt/game/minecraft/mod/BaseMod.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/JSONManager.java
+Import: java.util.Set
+Adding 2 imports
+        com.j1hnt.game.minecraft.mod.block.QuickBlock
+        com.j1hnt.game.minecraft.mod.item.QuickItem
+End  Processing: com/j1hnt/game/minecraft/mod/JSONManager.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/LanguageLocalization.java
+Rename method net/minecraft/item/Item/getUnlocalizedName ()Ljava/lang/String;[639,657]::getUnlocalizedName->func_77658_a
+Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[760,778]::getUnlocalizedName->func_149739_a
+Import: java.io.File
+Import: java.io.IOException
+Import: java.nio.file.Paths
+Import: java.util.Set
+Adding 3 imports
+        com.j1hnt.game.minecraft.mod.block.QuickBlock
+        com.j1hnt.game.minecraft.mod.item.QuickItem
+        org.apache.commons.io.FileUtils
+End  Processing: com/j1hnt/game/minecraft/mod/LanguageLocalization.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/PackageManager.java
+Import: java.io.IOException
+Import: java.net.URI
+Import: java.net.URISyntaxException
+Import: java.net.URL
+Import: java.nio.file.FileSystem
+Import: java.nio.file.FileSystemNotFoundException
+Import: java.nio.file.FileSystems
+Import: java.nio.file.Files
+Import: java.nio.file.Path
+Import: java.nio.file.Paths
+Import: java.util.HashMap
+Import: java.util.HashSet
+Import: java.util.Iterator
+Import: java.util.Map
+Import: java.util.Set
+Import: java.util.stream.Stream
+End  Processing: com/j1hnt/game/minecraft/mod/PackageManager.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/SoundHelper.java
+Rename field net/minecraft/init/SoundEvents/AMBIENT_CAVE[14213,14225]::AMBIENT_CAVE->field_187674_a
+Rename field net/minecraft/init/SoundEvents/BLOCK_ANVIL_BREAK[14245,14262]::BLOCK_ANVIL_BREAK->field_187677_b
+Rename field net/minecraft/init/SoundEvents/BLOCK_ANVIL_DESTROY[14277,14296]::BLOCK_ANVIL_DESTROY->field_187680_c
+Rename field net/minecraft/init/SoundEvents/BLOCK_ANVIL_FALL[14309,14325]::BLOCK_ANVIL_FALL->field_187683_d
+Rename field net/minecraft/init/SoundEvents/BLOCK_ANVIL_HIT[14341,14356]::BLOCK_ANVIL_HIT->field_187686_e
+Rename field net/minecraft/init/SoundEvents/BLOCK_ANVIL_LAND[14373,14389]::BLOCK_ANVIL_LAND->field_187689_f
+Rename field net/minecraft/init/SoundEvents/BLOCK_ANVIL_PLACE[14405,14422]::BLOCK_ANVIL_PLACE->field_187692_g
+Rename field net/minecraft/init/SoundEvents/BLOCK_ANVIL_STEP[14437,14453]::BLOCK_ANVIL_STEP->field_187695_h
+Rename field net/minecraft/init/SoundEvents/BLOCK_ANVIL_USE[14469,14484]::BLOCK_ANVIL_USE->field_187698_i
+Rename field net/minecraft/init/SoundEvents/ENTITY_ARMORSTAND_BREAK[14501,14524]::ENTITY_ARMORSTAND_BREAK->field_187701_j
+Rename field net/minecraft/init/SoundEvents/ENTITY_ARMORSTAND_FALL[14533,14555]::ENTITY_ARMORSTAND_FALL->field_187704_k
+Rename field net/minecraft/init/SoundEvents/ENTITY_ARMORSTAND_HIT[14565,14586]::ENTITY_ARMORSTAND_HIT->field_187707_l
+Rename field net/minecraft/init/SoundEvents/ENTITY_ARMORSTAND_PLACE[14597,14620]::ENTITY_ARMORSTAND_PLACE->field_187710_m
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_CHAIN[14629,14651]::ITEM_ARMOR_EQUIP_CHAIN->field_187713_n
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_DIAMOND[14661,14685]::ITEM_ARMOR_EQUIP_DIAMOND->field_187716_o
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQIIP_ELYTRA[14693,14716]::ITEM_ARMOR_EQIIP_ELYTRA->field_191258_p
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_GENERIC[14725,14749]::ITEM_ARMOR_EQUIP_GENERIC->field_187719_p
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_GOLD[14757,14778]::ITEM_ARMOR_EQUIP_GOLD->field_187722_q
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_IRON[14789,14810]::ITEM_ARMOR_EQUIP_IRON->field_187725_r
+Rename field net/minecraft/init/SoundEvents/ITEM_ARMOR_EQUIP_LEATHER[14821,14845]::ITEM_ARMOR_EQUIP_LEATHER->field_187728_s
+Rename field net/minecraft/init/SoundEvents/ENTITY_ARROW_HIT[14853,14869]::ENTITY_ARROW_HIT->field_187731_t
+Rename field net/minecraft/init/SoundEvents/ENTITY_ARROW_HIT_PLAYER[14885,14908]::ENTITY_ARROW_HIT_PLAYER->field_187734_u
+Rename field net/minecraft/init/SoundEvents/ENTITY_ARROW_SHOOT[14917,14935]::ENTITY_ARROW_SHOOT->field_187737_v
+Rename field net/minecraft/init/SoundEvents/ENTITY_BAT_AMBIENT[14949,14967]::ENTITY_BAT_AMBIENT->field_187740_w
+Rename field net/minecraft/init/SoundEvents/ENTITY_BAT_DEATH[14981,14997]::ENTITY_BAT_DEATH->field_187742_x
+Rename field net/minecraft/init/SoundEvents/ENTITY_BAT_HURT[15013,15028]::ENTITY_BAT_HURT->field_187743_y
+Rename field net/minecraft/init/SoundEvents/ENTITY_BAT_LOOP[15045,15060]::ENTITY_BAT_LOOP->field_189108_z
+Rename field net/minecraft/init/SoundEvents/ENTITY_BAT_TAKEOFF[15077,15095]::ENTITY_BAT_TAKEOFF->field_187744_z
+Rename field net/minecraft/init/SoundEvents/ENTITY_BLAZE_AMBIENT[15109,15129]::ENTITY_BLAZE_AMBIENT->field_187594_A
+Rename field net/minecraft/init/SoundEvents/ENTITY_BLAZE_BURN[15141,15158]::ENTITY_BLAZE_BURN->field_187597_B
+Rename field net/minecraft/init/SoundEvents/ENTITY_BLAZE_DEATH[15173,15191]::ENTITY_BLAZE_DEATH->field_187600_C
+Rename field net/minecraft/init/SoundEvents/ENTITY_BLAZE_HURT[15205,15222]::ENTITY_BLAZE_HURT->field_187603_D
+Rename field net/minecraft/init/SoundEvents/ENTITY_BLAZE_SHOOT[15237,15255]::ENTITY_BLAZE_SHOOT->field_187606_E
+Rename field net/minecraft/init/SoundEvents/ENTITY_BOBBER_SPLASH[15269,15289]::ENTITY_BOBBER_SPLASH->field_187609_F
+Rename field net/minecraft/init/SoundEvents/ENTITY_BOBBER_THROW[15301,15320]::ENTITY_BOBBER_THROW->field_187612_G
+Rename field net/minecraft/init/SoundEvents/ITEM_BOTTLE_EMPTY[15333,15350]::ITEM_BOTTLE_EMPTY->field_191241_J
+Rename field net/minecraft/init/SoundEvents/ITEM_BOTTLE_FILL[15365,15381]::ITEM_BOTTLE_FILL->field_187615_H
+Rename field net/minecraft/init/SoundEvents/ITEM_BOTTLE_FILL_DRAGONBREATH[15397,15426]::ITEM_BOTTLE_FILL_DRAGONBREATH->field_187618_I
+Rename field net/minecraft/init/SoundEvents/BLOCK_BREWING_STAND_BREW[15429,15453]::BLOCK_BREWING_STAND_BREW->field_187621_J
+Rename field net/minecraft/init/SoundEvents/ITEM_BUCKET_EMPTY[15461,15478]::ITEM_BUCKET_EMPTY->field_187624_K
+Rename field net/minecraft/init/SoundEvents/ITEM_BUCKET_EMPTY_LAVA[15493,15515]::ITEM_BUCKET_EMPTY_LAVA->field_187627_L
+Rename field net/minecraft/init/SoundEvents/ITEM_BUCKET_FILL[15525,15541]::ITEM_BUCKET_FILL->field_187630_M
+Rename field net/minecraft/init/SoundEvents/ITEM_BUCKET_FILL_LAVA[15557,15578]::ITEM_BUCKET_FILL_LAVA->field_187633_N
+Rename field net/minecraft/init/SoundEvents/ENTITY_CAT_AMBIENT[15589,15607]::ENTITY_CAT_AMBIENT->field_187636_O
+Rename field net/minecraft/init/SoundEvents/ENTITY_CAT_DEATH[15621,15637]::ENTITY_CAT_DEATH->field_187639_P
+Rename field net/minecraft/init/SoundEvents/ENTITY_CAT_HISS[15653,15668]::ENTITY_CAT_HISS->field_189106_R
+Rename field net/minecraft/init/SoundEvents/ENTITY_CAT_HURT[15685,15700]::ENTITY_CAT_HURT->field_187642_Q
+Rename field net/minecraft/init/SoundEvents/ENTITY_CAT_PURR[15717,15732]::ENTITY_CAT_PURR->field_187645_R
+Rename field net/minecraft/init/SoundEvents/ENTITY_CAT_PURREOW[15749,15767]::ENTITY_CAT_PURREOW->field_187648_S
+Rename field net/minecraft/init/SoundEvents/BLOCK_CHEST_CLOSE[15781,15798]::BLOCK_CHEST_CLOSE->field_187651_T
+Rename field net/minecraft/init/SoundEvents/BLOCK_CHEST_LOCKED[15813,15831]::BLOCK_CHEST_LOCKED->field_187654_U
+Rename field net/minecraft/init/SoundEvents/BLOCK_CHEST_OPEN[15845,15861]::BLOCK_CHEST_OPEN->field_187657_V
+Rename field net/minecraft/init/SoundEvents/ENTITY_CHICKEN_AMBIENT[15877,15899]::ENTITY_CHICKEN_AMBIENT->field_187660_W
+Rename field net/minecraft/init/SoundEvents/ENTITY_CHICKEN_DEATH[15909,15929]::ENTITY_CHICKEN_DEATH->field_187663_X
+Rename field net/minecraft/init/SoundEvents/ENTITY_CHICKEN_EGG[15941,15959]::ENTITY_CHICKEN_EGG->field_187665_Y
+Rename field net/minecraft/init/SoundEvents/ENTITY_CHICKEN_HURT[15973,15992]::ENTITY_CHICKEN_HURT->field_187666_Z
+Rename field net/minecraft/init/SoundEvents/ENTITY_CHICKEN_STEP[16005,16024]::ENTITY_CHICKEN_STEP->field_187538_aa
+Rename field net/minecraft/init/SoundEvents/BLOCK_CHORUS_FLOWER_DEATH[16038,16063]::BLOCK_CHORUS_FLOWER_DEATH->field_187540_ab
+Rename field net/minecraft/init/SoundEvents/BLOCK_CHORUS_FLOWER_GROW[16071,16095]::BLOCK_CHORUS_FLOWER_GROW->field_187542_ac
+Rename field net/minecraft/init/SoundEvents/ITEM_CHORUS_FRUIT_TELEPORT[16104,16130]::ITEM_CHORUS_FRUIT_TELEPORT->field_187544_ad
+Rename field net/minecraft/init/SoundEvents/BLOCK_CLOTH_BREAK[16137,16154]::BLOCK_CLOTH_BREAK->field_187546_ae
+Rename field net/minecraft/init/SoundEvents/BLOCK_CLOTH_FALL[16170,16186]::BLOCK_CLOTH_FALL->field_187548_af
+Rename field net/minecraft/init/SoundEvents/BLOCK_CLOTH_HIT[16203,16218]::BLOCK_CLOTH_HIT->field_187550_ag
+Rename field net/minecraft/init/SoundEvents/BLOCK_CLOTH_PLACE[16236,16253]::BLOCK_CLOTH_PLACE->field_187552_ah
+Rename field net/minecraft/init/SoundEvents/BLOCK_CLOTH_STEP[16269,16285]::BLOCK_CLOTH_STEP->field_187554_ai
+Rename field net/minecraft/init/SoundEvents/BLOCK_COMPARATOR_CLICK[16302,16324]::BLOCK_COMPARATOR_CLICK->field_187556_aj
+Rename field net/minecraft/init/SoundEvents/ENTITY_COW_AMBIENT[16335,16353]::ENTITY_COW_AMBIENT->field_187558_ak
+Rename field net/minecraft/init/SoundEvents/ENTITY_COW_DEATH[16368,16384]::ENTITY_COW_DEATH->field_187560_al
+Rename field net/minecraft/init/SoundEvents/ENTITY_COW_HURT[16401,16416]::ENTITY_COW_HURT->field_187562_am
+Rename field net/minecraft/init/SoundEvents/ENTITY_COW_MILK[16434,16449]::ENTITY_COW_MILK->field_187564_an
+Rename field net/minecraft/init/SoundEvents/ENTITY_COW_STEP[16467,16482]::ENTITY_COW_STEP->field_187566_ao
+Rename field net/minecraft/init/SoundEvents/ENTITY_CREEPER_DEATH[16500,16520]::ENTITY_CREEPER_DEATH->field_187568_ap
+Rename field net/minecraft/init/SoundEvents/ENTITY_CREEPER_HURT[16533,16552]::ENTITY_CREEPER_HURT->field_187570_aq
+Rename field net/minecraft/init/SoundEvents/ENTITY_CREEPER_PRIMED[16566,16587]::ENTITY_CREEPER_PRIMED->field_187572_ar
+Rename field net/minecraft/init/SoundEvents/BLOCK_DISPENSER_DISPENSE[16599,16623]::BLOCK_DISPENSER_DISPENSE->field_187574_as
+Rename field net/minecraft/init/SoundEvents/BLOCK_DISPENSER_FAIL[16632,16652]::BLOCK_DISPENSER_FAIL->field_187576_at
+Rename field net/minecraft/init/SoundEvents/BLOCK_DISPENSER_LAUNCH[16665,16687]::BLOCK_DISPENSER_LAUNCH->field_187578_au
+Rename field net/minecraft/init/SoundEvents/ENTITY_DONKEY_AMBIENT[16698,16719]::ENTITY_DONKEY_AMBIENT->field_187580_av
+Rename field net/minecraft/init/SoundEvents/ENTITY_DONKEY_ANGRY[16731,16750]::ENTITY_DONKEY_ANGRY->field_187582_aw
+Rename field net/minecraft/init/SoundEvents/ENTITY_DONKEY_CHEST[16764,16783]::ENTITY_DONKEY_CHEST->field_187584_ax
+Rename field net/minecraft/init/SoundEvents/ENTITY_DONKEY_DEATH[16797,16816]::ENTITY_DONKEY_DEATH->field_187586_ay
+Rename field net/minecraft/init/SoundEvents/ENTITY_DONKEY_HURT[16830,16848]::ENTITY_DONKEY_HURT->field_187588_az
+Rename field net/minecraft/init/SoundEvents/ENTITY_EGG_THROW[16863,16879]::ENTITY_EGG_THROW->field_187511_aA
+Rename field net/minecraft/init/SoundEvents/ENTITY_ELDER_GUARDIAN_AMBIENT[16896,16925]::ENTITY_ELDER_GUARDIAN_AMBIENT->field_187512_aB
+Rename field net/minecraft/init/SoundEvents/ENTITY_ELDERGUARDIAN_AMBIENTLAND[16929,16961]::ENTITY_ELDERGUARDIAN_AMBIENTLAND->field_187513_aC
+Rename field net/minecraft/init/SoundEvents/ENTITY_ELDER_GUARDIAN_CURSE[16962,16989]::ENTITY_ELDER_GUARDIAN_CURSE->field_187514_aD
+Rename field net/minecraft/init/SoundEvents/ENTITY_ELDER_GUARDIAN_DEATH[16995,17022]::ENTITY_ELDER_GUARDIAN_DEATH->field_187515_aE
+Rename field net/minecraft/init/SoundEvents/ENTITY_ELDER_GUARDIAN_DEATH_LAND[17028,17060]::ENTITY_ELDER_GUARDIAN_DEATH_LAND->field_187516_aF
+Rename field net/minecraft/init/SoundEvents/ENTITY_ELDER_GUARDIAN_FLOP[17061,17087]::ENTITY_ELDER_GUARDIAN_FLOP->field_191240_aK
+Rename field net/minecraft/init/SoundEvents/ENTITY_ELDER_GUARDIAN_HURT[17094,17120]::ENTITY_ELDER_GUARDIAN_HURT->field_187517_aG
+Rename field net/minecraft/init/SoundEvents/ENTITY_ELDER_GUARDIAN_HURT_LAND[17127,17158]::ENTITY_ELDER_GUARDIAN_HURT_LAND->field_187518_aH
+Rename field net/minecraft/init/SoundEvents/ITEM_ELYTRA_FLYING[17160,17178]::ITEM_ELYTRA_FLYING->field_189426_aK
+Rename field net/minecraft/init/SoundEvents/BLOCK_ENCHANTMENT_TABLE_USE[17193,17220]::BLOCK_ENCHANTMENT_TABLE_USE->field_190021_aL
+Rename field net/minecraft/init/SoundEvents/BLOCK_ENDERCHEST_CLOSE[17226,17248]::BLOCK_ENDERCHEST_CLOSE->field_187519_aI
+Rename field net/minecraft/init/SoundEvents/BLOCK_ENDERCHEST_OPEN[17259,17280]::BLOCK_ENDERCHEST_OPEN->field_187520_aJ
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERDRAGON_AMBIENT[17292,17318]::ENTITY_ENDERDRAGON_AMBIENT->field_187521_aK
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERDRAGON_DEATH[17325,17349]::ENTITY_ENDERDRAGON_DEATH->field_187522_aL
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERDRAGON_FIREBALL_EPLD[17358,17390]::ENTITY_ENDERDRAGON_FIREBALL_EPLD->field_187523_aM
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERDRAGON_FLAP[17391,17414]::ENTITY_ENDERDRAGON_FLAP->field_187524_aN
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERDRAGON_GROWL[17424,17448]::ENTITY_ENDERDRAGON_GROWL->field_187525_aO
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERDRAGON_HURT[17457,17480]::ENTITY_ENDERDRAGON_HURT->field_187526_aP
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERDRAGON_SHOOT[17490,17514]::ENTITY_ENDERDRAGON_SHOOT->field_187527_aQ
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDEREYE_LAUNCH[17523,17545]::ENTITY_ENDEREYE_LAUNCH->field_187528_aR
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMEN_AMBIENT[17556,17579]::ENTITY_ENDERMEN_AMBIENT->field_187529_aS
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMEN_DEATH[17589,17610]::ENTITY_ENDERMEN_DEATH->field_187530_aT
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMEN_HURT[17622,17642]::ENTITY_ENDERMEN_HURT->field_187531_aU
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMEN_SCREAM[17655,17677]::ENTITY_ENDERMEN_SCREAM->field_187532_aV
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMEN_STARE[17688,17709]::ENTITY_ENDERMEN_STARE->field_187533_aW
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMEN_TELEPORT[17721,17745]::ENTITY_ENDERMEN_TELEPORT->field_187534_aX
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMITE_AMBIENT[17754,17778]::ENTITY_ENDERMITE_AMBIENT->field_187535_aY
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMITE_DEATH[17787,17809]::ENTITY_ENDERMITE_DEATH->field_187536_aZ
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMITE_HURT[17820,17841]::ENTITY_ENDERMITE_HURT->field_187590_ba
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERMITE_STEP[17853,17874]::ENTITY_ENDERMITE_STEP->field_187592_bb
+Rename field net/minecraft/init/SoundEvents/ENTITY_ENDERPEARL_THROW[17886,17909]::ENTITY_ENDERPEARL_THROW->field_187595_bc
+Rename field net/minecraft/init/SoundEvents/BLOCK_END_GATEWAY_SPAWN[17919,17942]::BLOCK_END_GATEWAY_SPAWN->field_187598_bd
+Rename field net/minecraft/init/SoundEvents/EVOCATION_FANGS_ATTACK[17952,17974]::EVOCATION_FANGS_ATTACK->field_191242_bl
+Rename field net/minecraft/init/SoundEvents/ENTITY_EVOCATION_ILLAGER_AMBIENT[17985,18017]::ENTITY_EVOCATION_ILLAGER_AMBIENT->field_191243_bm
+Rename field net/minecraft/init/SoundEvents/EVOCATION_ILLAGER_CAST_SPELL[18018,18046]::EVOCATION_ILLAGER_CAST_SPELL->field_191244_bn
+Rename field net/minecraft/init/SoundEvents/EVOCATION_ILLAGER_DEATH[18051,18074]::EVOCATION_ILLAGER_DEATH->field_191245_bo
+Rename field net/minecraft/init/SoundEvents/ENTITY_EVOCATION_ILLAGER_HURT[18084,18113]::ENTITY_EVOCATION_ILLAGER_HURT->field_191246_bp
+Rename field net/minecraft/init/SoundEvents/EVOCATION_ILLAGER_PREPARE_ATTACK[18117,18149]::EVOCATION_ILLAGER_PREPARE_ATTACK->field_191247_bq
+Rename field net/minecraft/init/SoundEvents/EVOCATION_ILLAGER_PREPARE_SUMMON[18150,18182]::EVOCATION_ILLAGER_PREPARE_SUMMON->field_191248_br
+Rename field net/minecraft/init/SoundEvents/EVOCATION_ILLAGER_PREPARE_WOLOLO[18183,18215]::EVOCATION_ILLAGER_PREPARE_WOLOLO->field_191249_bs
+Rename field net/minecraft/init/SoundEvents/ENTITY_EXPERIENCE_BOTTLE_THROW[18216,18246]::ENTITY_EXPERIENCE_BOTTLE_THROW->field_187601_be
+Rename field net/minecraft/init/SoundEvents/ENTITY_EXPERIENCE_ORB_PICKUP[18249,18277]::ENTITY_EXPERIENCE_ORB_PICKUP->field_187604_bf
+Rename field net/minecraft/init/SoundEvents/BLOCK_FENCE_GATE_CLOSE[18282,18304]::BLOCK_FENCE_GATE_CLOSE->field_187610_bh
+Rename field net/minecraft/init/SoundEvents/BLOCK_FENCE_GATE_OPEN[18315,18336]::BLOCK_FENCE_GATE_OPEN->field_187613_bi
+Rename field net/minecraft/init/SoundEvents/ITEM_FIRECHARGE_USE[18348,18367]::ITEM_FIRECHARGE_USE->field_187616_bj
+Rename field net/minecraft/init/SoundEvents/ENTITY_FIREWORK_BLAST[18381,18402]::ENTITY_FIREWORK_BLAST->field_187619_bk
+Rename field net/minecraft/init/SoundEvents/ENTITY_FIREWORK_BLAST_FAR[18414,18439]::ENTITY_FIREWORK_BLAST_FAR->field_187622_bl
+Rename field net/minecraft/init/SoundEvents/ENTITY_FIREWORK_LARGE_BLAST[18447,18474]::ENTITY_FIREWORK_LARGE_BLAST->field_187625_bm
+Rename field net/minecraft/init/SoundEvents/ENTITY_FIREWORK_LARGE_BLAST_FAR[18480,18511]::ENTITY_FIREWORK_LARGE_BLAST_FAR->field_187628_bn
+Rename field net/minecraft/init/SoundEvents/ENTITY_FIREWORK_LAUNCH[18513,18535]::ENTITY_FIREWORK_LAUNCH->field_187631_bo
+Rename field net/minecraft/init/SoundEvents/ENTITY_FIREWORK_SHOOT[18546,18567]::ENTITY_FIREWORK_SHOOT->field_187634_bp
+Rename field net/minecraft/init/SoundEvents/ENTITY_FIREWORK_TWINKLE[18579,18602]::ENTITY_FIREWORK_TWINKLE->field_187637_bq
+Rename field net/minecraft/init/SoundEvents/ENTITY_FIREWORK_TWINKLE_FAR[18612,18639]::ENTITY_FIREWORK_TWINKLE_FAR->field_187640_br
+Rename field net/minecraft/init/SoundEvents/BLOCK_FIRE_AMBIENT[18645,18663]::BLOCK_FIRE_AMBIENT->field_187643_bs
+Rename field net/minecraft/init/SoundEvents/BLOCK_FIRE_EXTINGUISH[18678,18699]::BLOCK_FIRE_EXTINGUISH->field_187646_bt
+Rename field net/minecraft/init/SoundEvents/ITEM_FLINTANDSTEEL_USE[18711,18733]::ITEM_FLINTANDSTEEL_USE->field_187649_bu
+Rename field net/minecraft/init/SoundEvents/BLOCK_FURNACE_FIRE_CRACKLE[18744,18770]::BLOCK_FURNACE_FIRE_CRACKLE->field_187652_bv
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_BIG_FALL[18777,18800]::ENTITY_GENERIC_BIG_FALL->field_187655_bw
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_BURN[18810,18829]::ENTITY_GENERIC_BURN->field_187658_bx
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_DEATH[18843,18863]::ENTITY_GENERIC_DEATH->field_187661_by
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_DRINK[18876,18896]::ENTITY_GENERIC_DRINK->field_187664_bz
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_EAT[18909,18927]::ENTITY_GENERIC_EAT->field_187537_bA
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_EXPLODE[18942,18964]::ENTITY_GENERIC_EXPLODE->field_187539_bB
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_EXTINGUISH_FIRE[18975,19005]::ENTITY_GENERIC_EXTINGUISH_FIRE->field_187541_bC
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_HURT[19008,19027]::ENTITY_GENERIC_HURT->field_187543_bD
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_SMALL_FALL[19041,19066]::ENTITY_GENERIC_SMALL_FALL->field_187545_bE
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_SPLASH[19074,19095]::ENTITY_GENERIC_SPLASH->field_187547_bF
+Rename field net/minecraft/init/SoundEvents/ENTITY_GENERIC_SWIM[19107,19126]::ENTITY_GENERIC_SWIM->field_187549_bG
+Rename field net/minecraft/init/SoundEvents/ENTITY_GHAST_AMBIENT[19140,19160]::ENTITY_GHAST_AMBIENT->field_187551_bH
+Rename field net/minecraft/init/SoundEvents/ENTITY_GHAST_DEATH[19173,19191]::ENTITY_GHAST_DEATH->field_187553_bI
+Rename field net/minecraft/init/SoundEvents/ENTITY_GHAST_HURT[19206,19223]::ENTITY_GHAST_HURT->field_187555_bJ
+Rename field net/minecraft/init/SoundEvents/ENTITY_GHAST_SCREAM[19239,19258]::ENTITY_GHAST_SCREAM->field_189105_bM
+Rename field net/minecraft/init/SoundEvents/ENTITY_GHAST_SHOOT[19272,19290]::ENTITY_GHAST_SHOOT->field_187557_bK
+Rename field net/minecraft/init/SoundEvents/ENTITY_GHAST_WARN[19305,19322]::ENTITY_GHAST_WARN->field_187559_bL
+Rename field net/minecraft/init/SoundEvents/BLOCK_GLASS_BREAK[19338,19355]::BLOCK_GLASS_BREAK->field_187561_bM
+Rename field net/minecraft/init/SoundEvents/BLOCK_GLASS_FALL[19371,19387]::BLOCK_GLASS_FALL->field_187563_bN
+Rename field net/minecraft/init/SoundEvents/BLOCK_GLASS_HIT[19404,19419]::BLOCK_GLASS_HIT->field_187565_bO
+Rename field net/minecraft/init/SoundEvents/BLOCK_GLASS_PLACE[19437,19454]::BLOCK_GLASS_PLACE->field_187567_bP
+Rename field net/minecraft/init/SoundEvents/BLOCK_GLASS_STEP[19470,19486]::BLOCK_GLASS_STEP->field_187569_bQ
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRASS_BREAK[19503,19520]::BLOCK_GRASS_BREAK->field_187571_bR
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRASS_FALL[19536,19552]::BLOCK_GRASS_FALL->field_187573_bS
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRASS_HIT[19569,19584]::BLOCK_GRASS_HIT->field_187575_bT
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRASS_PLACE[19602,19619]::BLOCK_GRASS_PLACE->field_187577_bU
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRASS_STEP[19635,19651]::BLOCK_GRASS_STEP->field_187579_bV
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRAVEL_BREAK[19668,19686]::BLOCK_GRAVEL_BREAK->field_187581_bW
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRAVEL_FALL[19701,19718]::BLOCK_GRAVEL_FALL->field_187583_bX
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRAVEL_HIT[19734,19750]::BLOCK_GRAVEL_HIT->field_187585_bY
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRAVEL_PLACE[19767,19785]::BLOCK_GRAVEL_PLACE->field_187587_bZ
+Rename field net/minecraft/init/SoundEvents/BLOCK_GRAVEL_STEP[19800,19817]::BLOCK_GRAVEL_STEP->field_187668_ca
+Rename field net/minecraft/init/SoundEvents/ENTITY_GUARDIAN_AMBIENT[19833,19856]::ENTITY_GUARDIAN_AMBIENT->field_187670_cb
+Rename field net/minecraft/init/SoundEvents/ENTITY_GUARDIAN_AMBIENT_LAND[19866,19894]::ENTITY_GUARDIAN_AMBIENT_LAND->field_187672_cc
+Rename field net/minecraft/init/SoundEvents/ENTITY_GUARDIAN_ATTACK[19899,19921]::ENTITY_GUARDIAN_ATTACK->field_187675_cd
+Rename field net/minecraft/init/SoundEvents/ENTITY_GUARDIAN_DEATH[19932,19953]::ENTITY_GUARDIAN_DEATH->field_187678_ce
+Rename field net/minecraft/init/SoundEvents/ENTITY_GUARDIAN_DEATH_LAND[19965,19991]::ENTITY_GUARDIAN_DEATH_LAND->field_187681_cf
+Rename field net/minecraft/init/SoundEvents/ENTITY_GUARDIAN_FLOP[19998,20018]::ENTITY_GUARDIAN_FLOP->field_187684_cg
+Rename field net/minecraft/init/SoundEvents/ENTITY_GUARDIAN_HURT[20031,20051]::ENTITY_GUARDIAN_HURT->field_187687_ch
+Rename field net/minecraft/init/SoundEvents/ENTITY_GUARDIAN_HURT_LAND[20064,20089]::ENTITY_GUARDIAN_HURT_LAND->field_187690_ci
+Rename field net/minecraft/init/SoundEvents/ITEM_HOE_TILL[20097,20110]::ITEM_HOE_TILL->field_187693_cj
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_AMBIENT[20130,20150]::ENTITY_HORSE_AMBIENT->field_187696_ck
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_ANGRY[20163,20181]::ENTITY_HORSE_ANGRY->field_187699_cl
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_ARMOR[20196,20214]::ENTITY_HORSE_ARMOR->field_187702_cm
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_BREATHE[20229,20249]::ENTITY_HORSE_BREATHE->field_187705_cn
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_DEATH[20262,20280]::ENTITY_HORSE_DEATH->field_187708_co
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_EAT[20295,20311]::ENTITY_HORSE_EAT->field_187711_cp
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_GALLOP[20328,20347]::ENTITY_HORSE_GALLOP->field_187714_cq
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_HURT[20361,20378]::ENTITY_HORSE_HURT->field_187717_cr
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_JUMP[20394,20411]::ENTITY_HORSE_JUMP->field_187720_cs
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_LAND[20427,20444]::ENTITY_HORSE_LAND->field_187723_ct
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_SADDLE[20460,20479]::ENTITY_HORSE_SADDLE->field_187726_cu
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_STEP[20493,20510]::ENTITY_HORSE_STEP->field_187729_cv
+Rename field net/minecraft/init/SoundEvents/ENTITY_HORSE_STEP_WOOD[20526,20548]::ENTITY_HORSE_STEP_WOOD->field_187732_cw
+Rename field net/minecraft/init/SoundEvents/ENTITY_HOSTILE_BIG_FALL[20559,20582]::ENTITY_HOSTILE_BIG_FALL->field_187735_cx
+Rename field net/minecraft/init/SoundEvents/ENTITY_HOSTILE_DEATH[20592,20612]::ENTITY_HOSTILE_DEATH->field_187738_cy
+Rename field net/minecraft/init/SoundEvents/ENTITY_HOSTILE_HURT[20625,20644]::ENTITY_HOSTILE_HURT->field_187741_cz
+Rename field net/minecraft/init/SoundEvents/ENTITY_HOSTILE_SMALL_FALL[20658,20683]::ENTITY_HOSTILE_SMALL_FALL->field_187589_cA
+Rename field net/minecraft/init/SoundEvents/ENTITY_HOSTILE_SPLASH[20691,20712]::ENTITY_HOSTILE_SPLASH->field_187591_cB
+Rename field net/minecraft/init/SoundEvents/ENTITY_HOSTILE_SWIM[20724,20743]::ENTITY_HOSTILE_SWIM->field_187593_cC
+Rename field net/minecraft/init/SoundEvents/ENTITY_HUSK_AMBIENT[20757,20776]::ENTITY_HUSK_AMBIENT->field_190022_cI
+Rename field net/minecraft/init/SoundEvents/ENTITY_HUSK_DEATH[20790,20807]::ENTITY_HUSK_DEATH->field_190023_cJ
+Rename field net/minecraft/init/SoundEvents/ENTITY_HUSK_HURT[20823,20839]::ENTITY_HUSK_HURT->field_190024_cK
+Rename field net/minecraft/init/SoundEvents/ENTITY_HUSK_STEP[20856,20872]::ENTITY_HUSK_STEP->field_190025_cL
+Rename field net/minecraft/init/SoundEvents/ENTITY_IRONGOLEM_ATTACK[20889,20912]::ENTITY_IRONGOLEM_ATTACK->field_187596_cD
+Rename field net/minecraft/init/SoundEvents/ENTITY_IRONGOLEM_DEATH[20922,20944]::ENTITY_IRONGOLEM_DEATH->field_187599_cE
+Rename field net/minecraft/init/SoundEvents/ENTITY_IRONGOLEM_HURT[20955,20976]::ENTITY_IRONGOLEM_HURT->field_187602_cF
+Rename field net/minecraft/init/SoundEvents/ENTITY_IRONGOLEM_STEP[20988,21009]::ENTITY_IRONGOLEM_STEP->field_187605_cG
+Rename field net/minecraft/init/SoundEvents/BLOCK_IRON_DOOR_CLOSE[21021,21042]::BLOCK_IRON_DOOR_CLOSE->field_187608_cH
+Rename field net/minecraft/init/SoundEvents/BLOCK_IRON_DOOR_OPEN[21054,21074]::BLOCK_IRON_DOOR_OPEN->field_187611_cI
+Rename field net/minecraft/init/SoundEvents/BLOCK_IRON_TRAPDOOR_CLOSE[21087,21112]::BLOCK_IRON_TRAPDOOR_CLOSE->field_187614_cJ
+Rename field net/minecraft/init/SoundEvents/BLOCK_IRON_TRAPDOOR_OPEN[21120,21144]::BLOCK_IRON_TRAPDOOR_OPEN->field_187617_cK
+Rename field net/minecraft/init/SoundEvents/ENTITY_ITEMFRAME_ADD_ITEM[21153,21178]::ENTITY_ITEMFRAME_ADD_ITEM->field_187620_cL
+Rename field net/minecraft/init/SoundEvents/ENTITY_ITEMFRAME_BREAK[21186,21208]::ENTITY_ITEMFRAME_BREAK->field_187623_cM
+Rename field net/minecraft/init/SoundEvents/ENTITY_ITEMFRAME_PLACE[21219,21241]::ENTITY_ITEMFRAME_PLACE->field_187626_cN
+Rename field net/minecraft/init/SoundEvents/ENTITY_ITEMFRAME_REMOVE_ITEM[21252,21280]::ENTITY_ITEMFRAME_REMOVE_ITEM->field_187629_cO
+Rename field net/minecraft/init/SoundEvents/ENTITY_ITEMFRAME_ROTATE_ITEM[21285,21313]::ENTITY_ITEMFRAME_ROTATE_ITEM->field_187632_cP
+Rename field net/minecraft/init/SoundEvents/ENTITY_ITEM_BREAK[21318,21335]::ENTITY_ITEM_BREAK->field_187635_cQ
+Rename field net/minecraft/init/SoundEvents/ENTITY_ITEM_PICKUP[21351,21369]::ENTITY_ITEM_PICKUP->field_187638_cR
+Rename field net/minecraft/init/SoundEvents/BLOCK_LADDER_BREAK[21384,21402]::BLOCK_LADDER_BREAK->field_187641_cS
+Rename field net/minecraft/init/SoundEvents/BLOCK_LADDER_FALL[21417,21434]::BLOCK_LADDER_FALL->field_187644_cT
+Rename field net/minecraft/init/SoundEvents/BLOCK_LADDER_HIT[21450,21466]::BLOCK_LADDER_HIT->field_187647_cU
+Rename field net/minecraft/init/SoundEvents/BLOCK_LADDER_PLACE[21483,21501]::BLOCK_LADDER_PLACE->field_187650_cV
+Rename field net/minecraft/init/SoundEvents/BLOCK_LADDER_STEP[21516,21533]::BLOCK_LADDER_STEP->field_187653_cW
+Rename field net/minecraft/init/SoundEvents/BLOCK_LAVA_AMBIENT[21549,21567]::BLOCK_LAVA_AMBIENT->field_187656_cX
+Rename field net/minecraft/init/SoundEvents/BLOCK_LAVA_EXTINGUISH[21582,21603]::BLOCK_LAVA_EXTINGUISH->field_187659_cY
+Rename field net/minecraft/init/SoundEvents/BLOCK_LAVA_POP[21615,21629]::BLOCK_LAVA_POP->field_187662_cZ
+Rename field net/minecraft/init/SoundEvents/ENTITY_LEASHKNOT_BREAK[21648,21670]::ENTITY_LEASHKNOT_BREAK->field_187746_da
+Rename field net/minecraft/init/SoundEvents/ENTITY_LEASHKNOT_PLACE[21681,21703]::ENTITY_LEASHKNOT_PLACE->field_187748_db
+Rename field net/minecraft/init/SoundEvents/BLOCK_LEVER_CLICK[21714,21731]::BLOCK_LEVER_CLICK->field_187750_dc
+Rename field net/minecraft/init/SoundEvents/ENTITY_LIGHTNING_IMPACT[21747,21770]::ENTITY_LIGHTNING_IMPACT->field_187752_dd
+Rename field net/minecraft/init/SoundEvents/ENTITY_LIGHTNING_THUNDER[21780,21804]::ENTITY_LIGHTNING_THUNDER->field_187754_de
+Rename field net/minecraft/init/SoundEvents/ENTITY_LINGERINGPOTION_THROW[21813,21841]::ENTITY_LINGERINGPOTION_THROW->field_187756_df
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_AMBIENT[21846,21866]::ENTITY_LLAMA_AMBIENT->field_191260_dz
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_ANGRY[21879,21897]::ENTITY_LLAMA_ANGRY->field_191250_dA
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_CHEST[21912,21930]::ENTITY_LLAMA_CHEST->field_191251_dB
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_DEATH[21945,21963]::ENTITY_LLAMA_DEATH->field_191252_dC
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_EAT[21978,21994]::ENTITY_LLAMA_EAT->field_191253_dD
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_HURT[22011,22028]::ENTITY_LLAMA_HURT->field_191254_dE
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_SPIT[22044,22061]::ENTITY_LLAMA_SPIT->field_191255_dF
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_STEP[22077,22094]::ENTITY_LLAMA_STEP->field_191256_dG
+Rename field net/minecraft/init/SoundEvents/ENTITY_LLAMA_SWAG[22110,22127]::ENTITY_LLAMA_SWAG->field_191257_dH
+Rename field net/minecraft/init/SoundEvents/ENTITY_MAGMACUBE_DEATH[22143,22165]::ENTITY_MAGMACUBE_DEATH->field_187758_dg
+Rename field net/minecraft/init/SoundEvents/ENTITY_MAGMACUBE_HURT[22176,22197]::ENTITY_MAGMACUBE_HURT->field_187760_dh
+Rename field net/minecraft/init/SoundEvents/ENTITY_MAGMACUBE_JUMP[22209,22230]::ENTITY_MAGMACUBE_JUMP->field_187762_di
+Rename field net/minecraft/init/SoundEvents/ENTITY_MAGMACUBE_SQUISH[22242,22265]::ENTITY_MAGMACUBE_SQUISH->field_187764_dj
+Rename field net/minecraft/init/SoundEvents/BLOCK_METAL_BREAK[22275,22292]::BLOCK_METAL_BREAK->field_187766_dk
+Rename field net/minecraft/init/SoundEvents/BLOCK_METAL_FALL[22308,22324]::BLOCK_METAL_FALL->field_187768_dl
+Rename field net/minecraft/init/SoundEvents/BLOCK_METAL_HIT[22341,22356]::BLOCK_METAL_HIT->field_187770_dm
+Rename field net/minecraft/init/SoundEvents/BLOCK_METAL_PLACE[22374,22391]::BLOCK_METAL_PLACE->field_187772_dn
+Rename field net/minecraft/init/SoundEvents/BLOCK_METAL_PRESSPLATE_CLICK_OFF[22407,22439]::BLOCK_METAL_PRESSPLATE_CLICK_OFF->field_187774_do
+Rename field net/minecraft/init/SoundEvents/BLOCK_METAL_PRESSPLATE_CLICK_ON[22440,22471]::BLOCK_METAL_PRESSPLATE_CLICK_ON->field_187776_dp
+Rename field net/minecraft/init/SoundEvents/BLOCK_METAL_STEP[22473,22489]::BLOCK_METAL_STEP->field_187778_dq
+Rename field net/minecraft/init/SoundEvents/ENTITY_MINECART_INSIDE[22506,22528]::ENTITY_MINECART_INSIDE->field_187780_dr
+Rename field net/minecraft/init/SoundEvents/ENTITY_MINECART_RIDING[22539,22561]::ENTITY_MINECART_RIDING->field_187782_ds
+Rename field net/minecraft/init/SoundEvents/ENTITY_MOOSHROOM_SHEAR[22572,22594]::ENTITY_MOOSHROOM_SHEAR->field_187784_dt
+Rename field net/minecraft/init/SoundEvents/ENTITY_MULE_AMBIENT[22605,22624]::ENTITY_MULE_AMBIENT->field_187786_du
+Rename field net/minecraft/init/SoundEvents/ENTITY_MULE_CHEST[22638,22655]::ENTITY_MULE_CHEST->field_191259_dX
+Rename field net/minecraft/init/SoundEvents/ENTITY_MULE_DEATH[22671,22688]::ENTITY_MULE_DEATH->field_187788_dv
+Rename field net/minecraft/init/SoundEvents/ENTITY_MULE_HURT[22704,22720]::ENTITY_MULE_HURT->field_187790_dw
+Rename field net/minecraft/init/SoundEvents/MUSIC_CREATIVE[22737,22751]::MUSIC_CREATIVE->field_187792_dx
+Rename field net/minecraft/init/SoundEvents/MUSIC_CREDITS[22770,22783]::MUSIC_CREDITS->field_187794_dy
+Rename field net/minecraft/init/SoundEvents/MUSIC_DRAGON[22803,22815]::MUSIC_DRAGON->field_187796_dz
+Rename field net/minecraft/init/SoundEvents/MUSIC_END[22836,22845]::MUSIC_END->field_187667_dA
+Rename field net/minecraft/init/SoundEvents/MUSIC_GAME[22869,22879]::MUSIC_GAME->field_187669_dB
+Rename field net/minecraft/init/SoundEvents/MUSIC_MENU[22902,22912]::MUSIC_MENU->field_187671_dC
+Rename field net/minecraft/init/SoundEvents/MUSIC_NETHER[22935,22947]::MUSIC_NETHER->field_187673_dD
+Rename field net/minecraft/init/SoundEvents/BLOCK_NOTE_BASEDRUM[22968,22987]::BLOCK_NOTE_BASEDRUM->field_187676_dE
+Rename field net/minecraft/init/SoundEvents/BLOCK_NOTE_BASS[23001,23016]::BLOCK_NOTE_BASS->field_187679_dF
+Rename field net/minecraft/init/SoundEvents/BLOCK_NOTE_HARP[23034,23049]::BLOCK_NOTE_HARP->field_187682_dG
+Rename field net/minecraft/init/SoundEvents/BLOCK_NOTE_HAT[23067,23081]::BLOCK_NOTE_HAT->field_187685_dH
+Rename field net/minecraft/init/SoundEvents/BLOCK_NOTE_PLING[23100,23116]::BLOCK_NOTE_PLING->field_189107_dL
+Rename field net/minecraft/init/SoundEvents/BLOCK_NOTE_SNARE[23133,23149]::BLOCK_NOTE_SNARE->field_187688_dI
+Rename field net/minecraft/init/SoundEvents/ENTITY_PAINTING_BREAK[23166,23187]::ENTITY_PAINTING_BREAK->field_187691_dJ
+Rename field net/minecraft/init/SoundEvents/ENTITY_PAINTING_PLACE[23199,23220]::ENTITY_PAINTING_PLACE->field_187694_dK
+Rename field net/minecraft/init/SoundEvents/ENTITY_PIG_AMBIENT[23232,23250]::ENTITY_PIG_AMBIENT->field_187697_dL
+Rename field net/minecraft/init/SoundEvents/ENTITY_PIG_DEATH[23265,23281]::ENTITY_PIG_DEATH->field_187700_dM
+Rename field net/minecraft/init/SoundEvents/ENTITY_PIG_HURT[23298,23313]::ENTITY_PIG_HURT->field_187703_dN
+Rename field net/minecraft/init/SoundEvents/ENTITY_PIG_SADDLE[23331,23348]::ENTITY_PIG_SADDLE->field_187706_dO
+Rename field net/minecraft/init/SoundEvents/ENTITY_PIG_STEP[23364,23379]::ENTITY_PIG_STEP->field_187709_dP
+Rename field net/minecraft/init/SoundEvents/BLOCK_PISTON_CONTRACT[23397,23418]::BLOCK_PISTON_CONTRACT->field_187712_dQ
+Rename field net/minecraft/init/SoundEvents/BLOCK_PISTON_EXTEND[23430,23449]::BLOCK_PISTON_EXTEND->field_187715_dR
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_ATTACK_CRIT[23463,23488]::ENTITY_PLAYER_ATTACK_CRIT->field_187718_dS
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_ATTACK_KNOCKBACK[23496,23526]::ENTITY_PLAYER_ATTACK_KNOCKBACK->field_187721_dT
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_ATTACK_NODAMAGE[23529,23558]::ENTITY_PLAYER_ATTACK_NODAMAGE->field_187724_dU
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_ATTACK_STRONG[23562,23589]::ENTITY_PLAYER_ATTACK_STRONG->field_187727_dV
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_ATTACK_SWEEP[23595,23621]::ENTITY_PLAYER_ATTACK_SWEEP->field_187730_dW
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_ATTACK_WEAK[23628,23653]::ENTITY_PLAYER_ATTACK_WEAK->field_187733_dX
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_BIG_FALL[23661,23683]::ENTITY_PLAYER_BIG_FALL->field_187736_dY
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_BREATH[23694,23714]::ENTITY_PLAYER_BREATH->field_189109_ed
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_BURP[23727,23745]::ENTITY_PLAYER_BURP->field_187739_dZ
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_DEATH[23760,23779]::ENTITY_PLAYER_DEATH->field_187798_ea
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_HURT[23793,23811]::ENTITY_PLAYER_HURT->field_187800_eb
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_LEVELUP[23826,23847]::ENTITY_PLAYER_LEVELUP->field_187802_ec
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_SMALL_FALL[23859,23883]::ENTITY_PLAYER_SMALL_FALL->field_187804_ed
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_SPLASH[23892,23912]::ENTITY_PLAYER_SPLASH->field_187806_ee
+Rename field net/minecraft/init/SoundEvents/ENTITY_PLAYER_SWIM[23925,23943]::ENTITY_PLAYER_SWIM->field_187808_ef
+Rename field net/minecraft/init/SoundEvents/ENTITY_POLAR_BEAR_AMBIENT[23958,23983]::ENTITY_POLAR_BEAR_AMBIENT->field_190026_er
+Rename field net/minecraft/init/SoundEvents/ENTITY_POLAR_BEAR_BABY_AMBIENT[23991,24021]::ENTITY_POLAR_BEAR_BABY_AMBIENT->field_190027_es
+Rename field net/minecraft/init/SoundEvents/ENTITY_POLAR_BEAR_DEATH[24024,24047]::ENTITY_POLAR_BEAR_DEATH->field_190028_et
+Rename field net/minecraft/init/SoundEvents/ENTITY_POLAR_BEAR_HURT[24057,24079]::ENTITY_POLAR_BEAR_HURT->field_190029_eu
+Rename field net/minecraft/init/SoundEvents/ENTITY_POLAR_BEAR_STEP[24090,24112]::ENTITY_POLAR_BEAR_STEP->field_190030_ev
+Rename field net/minecraft/init/SoundEvents/ENTITY_POLAR_BEAR_WARNING[24123,24148]::ENTITY_POLAR_BEAR_WARNING->field_190031_ew
+Rename field net/minecraft/init/SoundEvents/BLOCK_PORTAL_AMBIENT[24156,24176]::BLOCK_PORTAL_AMBIENT->field_187810_eg
+Rename field net/minecraft/init/SoundEvents/BLOCK_PORTAL_TRAVEL[24189,24208]::BLOCK_PORTAL_TRAVEL->field_187812_eh
+Rename field net/minecraft/init/SoundEvents/BLOCK_PORTAL_TRIGGER[24222,24242]::BLOCK_PORTAL_TRIGGER->field_187814_ei
+Rename field net/minecraft/init/SoundEvents/ENTITY_RABBIT_AMBIENT[24255,24276]::ENTITY_RABBIT_AMBIENT->field_187816_ej
+Rename field net/minecraft/init/SoundEvents/ENTITY_RABBIT_ATTACK[24288,24308]::ENTITY_RABBIT_ATTACK->field_187818_ek
+Rename field net/minecraft/init/SoundEvents/ENTITY_RABBIT_DEATH[24321,24340]::ENTITY_RABBIT_DEATH->field_187820_el
+Rename field net/minecraft/init/SoundEvents/ENTITY_RABBIT_HURT[24354,24372]::ENTITY_RABBIT_HURT->field_187822_em
+Rename field net/minecraft/init/SoundEvents/ENTITY_RABBIT_JUMP[24387,24405]::ENTITY_RABBIT_JUMP->field_187824_en
+Rename field net/minecraft/init/SoundEvents/RECORD_11[24420,24429]::RECORD_11->field_187826_eo
+Rename field net/minecraft/init/SoundEvents/RECORD_13[24453,24462]::RECORD_13->field_187828_ep
+Rename field net/minecraft/init/SoundEvents/RECORD_BLOCKS[24486,24499]::RECORD_BLOCKS->field_187830_eq
+Rename field net/minecraft/init/SoundEvents/RECORD_CAT[24519,24529]::RECORD_CAT->field_187832_er
+Rename field net/minecraft/init/SoundEvents/RECORD_CHIRP[24552,24564]::RECORD_CHIRP->field_187834_es
+Rename field net/minecraft/init/SoundEvents/RECORD_FAR[24585,24595]::RECORD_FAR->field_187836_et
+Rename field net/minecraft/init/SoundEvents/RECORD_MALL[24618,24629]::RECORD_MALL->field_187838_eu
+Rename field net/minecraft/init/SoundEvents/RECORD_MELLOHI[24651,24665]::RECORD_MELLOHI->field_187840_ev
+Rename field net/minecraft/init/SoundEvents/RECORD_STAL[24684,24695]::RECORD_STAL->field_187842_ew
+Rename field net/minecraft/init/SoundEvents/RECORD_STRAD[24717,24729]::RECORD_STRAD->field_187844_ex
+Rename field net/minecraft/init/SoundEvents/RECORD_WAIT[24750,24761]::RECORD_WAIT->field_187846_ey
+Rename field net/minecraft/init/SoundEvents/RECORD_WARD[24783,24794]::RECORD_WARD->field_187848_ez
+Rename field net/minecraft/init/SoundEvents/BLOCK_REDSTONE_TORCH_BURNOUT[24816,24844]::BLOCK_REDSTONE_TORCH_BURNOUT->field_187745_eA
+Rename field net/minecraft/init/SoundEvents/BLOCK_SAND_BREAK[24849,24865]::BLOCK_SAND_BREAK->field_187747_eB
+Rename field net/minecraft/init/SoundEvents/BLOCK_SAND_FALL[24882,24897]::BLOCK_SAND_FALL->field_187749_eC
+Rename field net/minecraft/init/SoundEvents/BLOCK_SAND_HIT[24915,24929]::BLOCK_SAND_HIT->field_187751_eD
+Rename field net/minecraft/init/SoundEvents/BLOCK_SAND_PLACE[24948,24964]::BLOCK_SAND_PLACE->field_187753_eE
+Rename field net/minecraft/init/SoundEvents/BLOCK_SAND_STEP[24981,24996]::BLOCK_SAND_STEP->field_187755_eF
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHEEP_AMBIENT[25014,25034]::ENTITY_SHEEP_AMBIENT->field_187757_eG
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHEEP_DEATH[25047,25065]::ENTITY_SHEEP_DEATH->field_187759_eH
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHEEP_HURT[25080,25097]::ENTITY_SHEEP_HURT->field_187761_eI
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHEEP_SHEAR[25113,25131]::ENTITY_SHEEP_SHEAR->field_187763_eJ
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHEEP_STEP[25146,25163]::ENTITY_SHEEP_STEP->field_187765_eK
+Rename field net/minecraft/init/SoundEvents/ITEM_SHIELD_BLOCK[25179,25196]::ITEM_SHIELD_BLOCK->field_187767_eL
+Rename field net/minecraft/init/SoundEvents/ITEM_SHIELD_BREAK[25212,25229]::ITEM_SHIELD_BREAK->field_187769_eM
+Rename field net/minecraft/init/SoundEvents/ITEM_SHOVEL_FLATTEN[25245,25264]::ITEM_SHOVEL_FLATTEN->field_187771_eN
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_AMBIENT[25278,25300]::ENTITY_SHULKER_AMBIENT->field_187773_eO
+Rename field net/minecraft/init/SoundEvents/BLOCK_SHULKER_BOX_CLOSE[25311,25334]::BLOCK_SHULKER_BOX_CLOSE->field_191261_fA
+Rename field net/minecraft/init/SoundEvents/BLOCK_SHULKER_BOX_OPEN[25344,25366]::BLOCK_SHULKER_BOX_OPEN->field_191262_fB
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_BULLET_HIT[25377,25402]::ENTITY_SHULKER_BULLET_HIT->field_187775_eP
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_BULLET_HURT[25410,25436]::ENTITY_SHULKER_BULLET_HURT->field_187777_eQ
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_CLOSE[25443,25463]::ENTITY_SHULKER_CLOSE->field_187779_eR
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_DEATH[25476,25496]::ENTITY_SHULKER_DEATH->field_187781_eS
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_HURT[25509,25528]::ENTITY_SHULKER_HURT->field_187783_eT
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_HURT_CLOSED[25542,25568]::ENTITY_SHULKER_HURT_CLOSED->field_187785_eU
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_OPEN[25575,25594]::ENTITY_SHULKER_OPEN->field_187787_eV
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_SHOOT[25608,25628]::ENTITY_SHULKER_SHOOT->field_187789_eW
+Rename field net/minecraft/init/SoundEvents/ENTITY_SHULKER_TELEPORT[25641,25664]::ENTITY_SHULKER_TELEPORT->field_187791_eX
+Rename field net/minecraft/init/SoundEvents/ENTITY_SILVERFISH_AMBIENT[25674,25699]::ENTITY_SILVERFISH_AMBIENT->field_187793_eY
+Rename field net/minecraft/init/SoundEvents/ENTITY_SILVERFISH_DEATH[25707,25730]::ENTITY_SILVERFISH_DEATH->field_187795_eZ
+Rename field net/minecraft/init/SoundEvents/ENTITY_SILVERFISH_HURT[25740,25762]::ENTITY_SILVERFISH_HURT->field_187850_fa
+Rename field net/minecraft/init/SoundEvents/ENTITY_SILVERFISH_STEP[25773,25795]::ENTITY_SILVERFISH_STEP->field_187852_fb
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_AMBIENT[25806,25829]::ENTITY_SKELETON_AMBIENT->field_187854_fc
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_DEATH[25839,25860]::ENTITY_SKELETON_DEATH->field_187856_fd
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_HORSE_AMBIENT[25872,25901]::ENTITY_SKELETON_HORSE_AMBIENT->field_187858_fe
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_HORSE_DEATH[25905,25932]::ENTITY_SKELETON_HORSE_DEATH->field_187860_ff
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_HORSE_HURT[25938,25964]::ENTITY_SKELETON_HORSE_HURT->field_187862_fg
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_HURT[25971,25991]::ENTITY_SKELETON_HURT->field_187864_fh
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_SHOOT[26004,26025]::ENTITY_SKELETON_SHOOT->field_187866_fi
+Rename field net/minecraft/init/SoundEvents/ENTITY_SKELETON_STEP[26037,26057]::ENTITY_SKELETON_STEP->field_187868_fj
+Rename field net/minecraft/init/SoundEvents/ENTITY_SLIME_ATTACK[26070,26089]::ENTITY_SLIME_ATTACK->field_187870_fk
+Rename field net/minecraft/init/SoundEvents/BLOCK_SLIME_BREAK[26103,26120]::BLOCK_SLIME_BREAK->field_187872_fl
+Rename field net/minecraft/init/SoundEvents/ENTITY_SLIME_DEATH[26136,26154]::ENTITY_SLIME_DEATH->field_187874_fm
+Rename field net/minecraft/init/SoundEvents/BLOCK_SLIME_FALL[26169,26185]::BLOCK_SLIME_FALL->field_187876_fn
+Rename field net/minecraft/init/SoundEvents/BLOCK_SLIME_HIT[26202,26217]::BLOCK_SLIME_HIT->field_187878_fo
+Rename field net/minecraft/init/SoundEvents/ENTITY_SLIME_HURT[26235,26252]::ENTITY_SLIME_HURT->field_187880_fp
+Rename field net/minecraft/init/SoundEvents/ENTITY_SLIME_JUMP[26268,26285]::ENTITY_SLIME_JUMP->field_187882_fq
+Rename field net/minecraft/init/SoundEvents/BLOCK_SLIME_PLACE[26301,26318]::BLOCK_SLIME_PLACE->field_187884_fr
+Rename field net/minecraft/init/SoundEvents/ENTITY_SLIME_SQUISH[26334,26353]::ENTITY_SLIME_SQUISH->field_187886_fs
+Rename field net/minecraft/init/SoundEvents/BLOCK_SLIME_STEP[26367,26383]::BLOCK_SLIME_STEP->field_187888_ft
+Rename field net/minecraft/init/SoundEvents/ENTITY_SMALL_MAGMACUBE_DEATH[26400,26428]::ENTITY_SMALL_MAGMACUBE_DEATH->field_187890_fu
+Rename field net/minecraft/init/SoundEvents/ENTITY_SMALL_MAGMACUBE_HURT[26433,26460]::ENTITY_SMALL_MAGMACUBE_HURT->field_187892_fv
+Rename field net/minecraft/init/SoundEvents/ENTITY_SMALL_MAGMACUBE_SQUISH[26466,26495]::ENTITY_SMALL_MAGMACUBE_SQUISH->field_187894_fw
+Rename field net/minecraft/init/SoundEvents/ENTITY_SMALL_SLIME_DEATH[26499,26523]::ENTITY_SMALL_SLIME_DEATH->field_187896_fx
+Rename field net/minecraft/init/SoundEvents/ENTITY_SMALL_SLIME_HURT[26532,26555]::ENTITY_SMALL_SLIME_HURT->field_187898_fy
+Rename field net/minecraft/init/SoundEvents/ENTITY_SMALL_SLIME_JUMP[26565,26588]::ENTITY_SMALL_SLIME_JUMP->field_189110_fE
+Rename field net/minecraft/init/SoundEvents/ENTITY_SMALL_SLIME_SQUISH[26598,26623]::ENTITY_SMALL_SLIME_SQUISH->field_187900_fz
+Rename field net/minecraft/init/SoundEvents/ENTITY_SNOWBALL_THROW[26631,26652]::ENTITY_SNOWBALL_THROW->field_187797_fA
+Rename field net/minecraft/init/SoundEvents/ENTITY_SNOWMAN_AMBIENT[26664,26686]::ENTITY_SNOWMAN_AMBIENT->field_187799_fB
+Rename field net/minecraft/init/SoundEvents/ENTITY_SNOWMAN_DEATH[26697,26717]::ENTITY_SNOWMAN_DEATH->field_187801_fC
+Rename field net/minecraft/init/SoundEvents/ENTITY_SNOWMAN_HURT[26730,26749]::ENTITY_SNOWMAN_HURT->field_187803_fD
+Rename field net/minecraft/init/SoundEvents/ENTITY_SNOWMAN_SHOOT[26763,26783]::ENTITY_SNOWMAN_SHOOT->field_187805_fE
+Rename field net/minecraft/init/SoundEvents/BLOCK_SNOW_BREAK[26796,26812]::BLOCK_SNOW_BREAK->field_187807_fF
+Rename field net/minecraft/init/SoundEvents/BLOCK_SNOW_FALL[26829,26844]::BLOCK_SNOW_FALL->field_187809_fG
+Rename field net/minecraft/init/SoundEvents/BLOCK_SNOW_HIT[26862,26876]::BLOCK_SNOW_HIT->field_187811_fH
+Rename field net/minecraft/init/SoundEvents/BLOCK_SNOW_PLACE[26895,26911]::BLOCK_SNOW_PLACE->field_187813_fI
+Rename field net/minecraft/init/SoundEvents/BLOCK_SNOW_STEP[26928,26943]::BLOCK_SNOW_STEP->field_187815_fJ
+Rename field net/minecraft/init/SoundEvents/ENTITY_SPIDER_AMBIENT[26961,26982]::ENTITY_SPIDER_AMBIENT->field_187817_fK
+Rename field net/minecraft/init/SoundEvents/ENTITY_SPIDER_DEATH[26994,27013]::ENTITY_SPIDER_DEATH->field_187819_fL
+Rename field net/minecraft/init/SoundEvents/ENTITY_SPIDER_HURT[27027,27045]::ENTITY_SPIDER_HURT->field_187821_fM
+Rename field net/minecraft/init/SoundEvents/ENTITY_SPIDER_STEP[27060,27078]::ENTITY_SPIDER_STEP->field_187823_fN
+Rename field net/minecraft/init/SoundEvents/ENTITY_SPLASH_POTION_BREAK[27093,27119]::ENTITY_SPLASH_POTION_BREAK->field_187825_fO
+Rename field net/minecraft/init/SoundEvents/ENTITY_SPLASH_POTION_THROW[27126,27152]::ENTITY_SPLASH_POTION_THROW->field_187827_fP
+Rename field net/minecraft/init/SoundEvents/ENTITY_SQUID_AMBIENT[27159,27179]::ENTITY_SQUID_AMBIENT->field_187829_fQ
+Rename field net/minecraft/init/SoundEvents/ENTITY_SQUID_DEATH[27192,27210]::ENTITY_SQUID_DEATH->field_187831_fR
+Rename field net/minecraft/init/SoundEvents/ENTITY_SQUID_HURT[27225,27242]::ENTITY_SQUID_HURT->field_187833_fS
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_BREAK[27258,27275]::BLOCK_STONE_BREAK->field_187835_fT
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_BUTTON_CLICK_OFF[27291,27319]::BLOCK_STONE_BUTTON_CLICK_OFF->field_187837_fU
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_BUTTON_CLICK_ON[27324,27351]::BLOCK_STONE_BUTTON_CLICK_ON->field_187839_fV
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_FALL[27357,27373]::BLOCK_STONE_FALL->field_187841_fW
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_HIT[27390,27405]::BLOCK_STONE_HIT->field_187843_fX
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_PLACE[27423,27440]::BLOCK_STONE_PLACE->field_187845_fY
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_PRESSPLATE_CLICK_OFF[27456,27488]::BLOCK_STONE_PRESSPLATE_CLICK_OFF->field_187847_fZ
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_PRESSPLATE_CLICK_ON[27489,27520]::BLOCK_STONE_PRESSPLATE_CLICK_ON->field_187901_ga
+Rename field net/minecraft/init/SoundEvents/BLOCK_STONE_STEP[27522,27538]::BLOCK_STONE_STEP->field_187902_gb
+Rename field net/minecraft/init/SoundEvents/ENTITY_STRAY_AMBIENT[27555,27575]::ENTITY_STRAY_AMBIENT->field_190032_gu
+Rename field net/minecraft/init/SoundEvents/ENTITY_STRAY_DEATH[27588,27606]::ENTITY_STRAY_DEATH->field_190033_gv
+Rename field net/minecraft/init/SoundEvents/ENTITY_STRAY_HURT[27621,27638]::ENTITY_STRAY_HURT->field_190034_gw
+Rename field net/minecraft/init/SoundEvents/ENTITY_STRAY_STEP[27654,27671]::ENTITY_STRAY_STEP->field_190035_gx
+Rename field net/minecraft/init/SoundEvents/ENCHANT_THORNS_HIT[27687,27705]::ENCHANT_THORNS_HIT->field_187903_gc
+Rename field net/minecraft/init/SoundEvents/ENTITY_TNT_PRIMED[27720,27737]::ENTITY_TNT_PRIMED->field_187904_gd
+Rename field net/minecraft/init/SoundEvents/ITEM_TOTEM_USE[27753,27767]::ITEM_TOTEM_USE->field_191263_gW
+Rename field net/minecraft/init/SoundEvents/BLOCK_TRIPWIRE_ATTACH[27786,27807]::BLOCK_TRIPWIRE_ATTACH->field_187905_ge
+Rename field net/minecraft/init/SoundEvents/BLOCK_TRIPWIRE_CLICK_OFF[27819,27843]::BLOCK_TRIPWIRE_CLICK_OFF->field_187906_gf
+Rename field net/minecraft/init/SoundEvents/BLOCK_TRIPWIRE_CLICK_ON[27852,27875]::BLOCK_TRIPWIRE_CLICK_ON->field_187907_gg
+Rename field net/minecraft/init/SoundEvents/BLOCK_TRIPWIRE_DETACH[27885,27906]::BLOCK_TRIPWIRE_DETACH->field_187908_gh
+Rename field net/minecraft/init/SoundEvents/UI_BUTTON_CLICK[27918,27933]::UI_BUTTON_CLICK->field_187909_gi
+Rename field net/minecraft/init/SoundEvents/ENTITY_VEX_AMBIENT[27951,27969]::ENTITY_VEX_AMBIENT->field_191264_hc
+Rename field net/minecraft/init/SoundEvents/ENTITY_VEX_CHARGE[27984,28001]::ENTITY_VEX_CHARGE->field_191265_hd
+Rename field net/minecraft/init/SoundEvents/ENTITY_VEX_DEATH[28017,28033]::ENTITY_VEX_DEATH->field_191266_he
+Rename field net/minecraft/init/SoundEvents/ENTITY_VEX_HURT[28050,28065]::ENTITY_VEX_HURT->field_191267_hf
+Rename field net/minecraft/init/SoundEvents/ENTITY_VILLAGER_AMBIENT[28083,28106]::ENTITY_VILLAGER_AMBIENT->field_187910_gj
+Rename field net/minecraft/init/SoundEvents/ENTITY_VILLAGER_DEATH[28116,28137]::ENTITY_VILLAGER_DEATH->field_187911_gk
+Rename field net/minecraft/init/SoundEvents/ENTITY_VILLAGER_HURT[28149,28169]::ENTITY_VILLAGER_HURT->field_187912_gl
+Rename field net/minecraft/init/SoundEvents/ENTITY_VILLAGER_NO[28182,28200]::ENTITY_VILLAGER_NO->field_187913_gm
+Rename field net/minecraft/init/SoundEvents/ENTITY_VILLAGER_TRADING[28215,28238]::ENTITY_VILLAGER_TRADING->field_187914_gn
+Rename field net/minecraft/init/SoundEvents/ENTITY_VILLAGER_YES[28248,28267]::ENTITY_VILLAGER_YES->field_187915_go
+Rename field net/minecraft/init/SoundEvents/VINDICATION_ILLAGER_AMBIENT[28281,28308]::VINDICATION_ILLAGER_AMBIENT->field_191268_hm
+Rename field net/minecraft/init/SoundEvents/VINDICATION_ILLAGER_DEATH[28314,28339]::VINDICATION_ILLAGER_DEATH->field_191269_hn
+Rename field net/minecraft/init/SoundEvents/ENTITY_VINDICATION_ILLAGER_HURT[28347,28378]::ENTITY_VINDICATION_ILLAGER_HURT->field_191270_ho
+Rename field net/minecraft/init/SoundEvents/BLOCK_WATERLILY_PLACE[28380,28401]::BLOCK_WATERLILY_PLACE->field_187916_gp
+Rename field net/minecraft/init/SoundEvents/BLOCK_WATER_AMBIENT[28413,28432]::BLOCK_WATER_AMBIENT->field_187917_gq
+Rename field net/minecraft/init/SoundEvents/WEATHER_RAIN[28446,28458]::WEATHER_RAIN->field_187918_gr
+Rename field net/minecraft/init/SoundEvents/WEATHER_RAIN_ABOVE[28479,28497]::WEATHER_RAIN_ABOVE->field_187919_gs
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITCH_AMBIENT[28512,28532]::ENTITY_WITCH_AMBIENT->field_187920_gt
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITCH_DEATH[28545,28563]::ENTITY_WITCH_DEATH->field_187921_gu
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITCH_DRINK[28578,28596]::ENTITY_WITCH_DRINK->field_187922_gv
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITCH_HURT[28611,28628]::ENTITY_WITCH_HURT->field_187923_gw
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITCH_THROW[28644,28662]::ENTITY_WITCH_THROW->field_187924_gx
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_AMBIENT[28677,28698]::ENTITY_WITHER_AMBIENT->field_187925_gy
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_BREAK_BLOCK[28710,28735]::ENTITY_WITHER_BREAK_BLOCK->field_187926_gz
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_DEATH[28743,28762]::ENTITY_WITHER_DEATH->field_187849_gA
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_HURT[28776,28794]::ENTITY_WITHER_HURT->field_187851_gB
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_SHOOT[28809,28828]::ENTITY_WITHER_SHOOT->field_187853_gC
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_SKELETON_AMBIENT[28842,28872]::ENTITY_WITHER_SKELETON_AMBIENT->field_190036_ha
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_SKELETON_DEATH[28875,28903]::ENTITY_WITHER_SKELETON_DEATH->field_190037_hb
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_SKELETON_HURT[28908,28935]::ENTITY_WITHER_SKELETON_HURT->field_190038_hc
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_SKELETON_STEP[28941,28968]::ENTITY_WITHER_SKELETON_STEP->field_190039_hd
+Rename field net/minecraft/init/SoundEvents/ENTITY_WITHER_SPAWN[28974,28993]::ENTITY_WITHER_SPAWN->field_187855_gD
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_AMBIENT[29007,29026]::ENTITY_WOLF_AMBIENT->field_187857_gE
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_DEATH[29040,29057]::ENTITY_WOLF_DEATH->field_187859_gF
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_GROWL[29073,29090]::ENTITY_WOLF_GROWL->field_187861_gG
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_HOWL[29106,29122]::ENTITY_WOLF_HOWL->field_189111_gN
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_HURT[29139,29155]::ENTITY_WOLF_HURT->field_187863_gH
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_PANT[29172,29188]::ENTITY_WOLF_PANT->field_187865_gI
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_SHAKE[29205,29222]::ENTITY_WOLF_SHAKE->field_187867_gJ
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_STEP[29238,29254]::ENTITY_WOLF_STEP->field_187869_gK
+Rename field net/minecraft/init/SoundEvents/ENTITY_WOLF_WHINE[29271,29288]::ENTITY_WOLF_WHINE->field_187871_gL
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOODEN_DOOR_CLOSE[29304,29327]::BLOCK_WOODEN_DOOR_CLOSE->field_187873_gM
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOODEN_DOOR_OPEN[29337,29359]::BLOCK_WOODEN_DOOR_OPEN->field_187875_gN
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOODEN_TRAPDOOR_CLOSE[29370,29397]::BLOCK_WOODEN_TRAPDOOR_CLOSE->field_187877_gO
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOODEN_TRAPDOOR_OPEN[29403,29429]::BLOCK_WOODEN_TRAPDOOR_OPEN->field_187879_gP
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_BREAK[29436,29452]::BLOCK_WOOD_BREAK->field_187881_gQ
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_BUTTON_CLICK_OFF[29469,29496]::BLOCK_WOOD_BUTTON_CLICK_OFF->field_187883_gR
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_BUTTON_CLICK_ON[29502,29528]::BLOCK_WOOD_BUTTON_CLICK_ON->field_187885_gS
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_FALL[29535,29550]::BLOCK_WOOD_FALL->field_187887_gT
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_HIT[29568,29582]::BLOCK_WOOD_HIT->field_187889_gU
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_PLACE[29601,29617]::BLOCK_WOOD_PLACE->field_187891_gV
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_PRESSPLATE_CLICK_OFF[29634,29665]::BLOCK_WOOD_PRESSPLATE_CLICK_OFF->field_187893_gW
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_PRESSPLATE_CLICK_ON[29667,29697]::BLOCK_WOOD_PRESSPLATE_CLICK_ON->field_187895_gX
+Rename field net/minecraft/init/SoundEvents/BLOCK_WOOD_STEP[29700,29715]::BLOCK_WOOD_STEP->field_187897_gY
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_AMBIENT[29733,29754]::ENTITY_ZOMBIE_AMBIENT->field_187899_gZ
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_ATTACK_DOOR_WOOD[29766,29796]::ENTITY_ZOMBIE_ATTACK_DOOR_WOOD->field_187927_ha
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_ATTACK_IRON_DOOR[29799,29829]::ENTITY_ZOMBIE_ATTACK_IRON_DOOR->field_187928_hb
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_BREAK_DOOR_WOOD[29832,29861]::ENTITY_ZOMBIE_BREAK_DOOR_WOOD->field_187929_hc
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_DEATH[29865,29884]::ENTITY_ZOMBIE_DEATH->field_187930_hd
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_HORSE_AMBIENT[29898,29925]::ENTITY_ZOMBIE_HORSE_AMBIENT->field_187931_he
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_HORSE_DEATH[29931,29956]::ENTITY_ZOMBIE_HORSE_DEATH->field_187932_hf
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_HORSE_HURT[29964,29988]::ENTITY_ZOMBIE_HORSE_HURT->field_187933_hg
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_HURT[29997,30015]::ENTITY_ZOMBIE_HURT->field_187934_hh
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_INFECT[30030,30050]::ENTITY_ZOMBIE_INFECT->field_187945_hs
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_PIG_AMBIENT[30063,30088]::ENTITY_ZOMBIE_PIG_AMBIENT->field_187935_hi
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_PIG_ANGRY[30096,30119]::ENTITY_ZOMBIE_PIG_ANGRY->field_187936_hj
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_PIG_DEATH[30129,30152]::ENTITY_ZOMBIE_PIG_DEATH->field_187937_hk
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_PIG_HURT[30162,30184]::ENTITY_ZOMBIE_PIG_HURT->field_187938_hl
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_STEP[30195,30213]::ENTITY_ZOMBIE_STEP->field_187939_hm
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_VILLAGER_AMBIENT[30228,30258]::ENTITY_ZOMBIE_VILLAGER_AMBIENT->field_187940_hn
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_VILLAGER_CONVERTED[30261,30293]::ENTITY_ZOMBIE_VILLAGER_CONVERTED->field_187941_ho
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_VILLAGER_CURE[30294,30321]::ENTITY_ZOMBIE_VILLAGER_CURE->field_187942_hp
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_VILLAGER_DEATH[30327,30355]::ENTITY_ZOMBIE_VILLAGER_DEATH->field_187943_hq
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_VILLAGER_HURT[30360,30387]::ENTITY_ZOMBIE_VILLAGER_HURT->field_187944_hr
+Rename field net/minecraft/init/SoundEvents/ENTITY_ZOMBIE_VILLAGER_STEP[30393,30420]::ENTITY_ZOMBIE_VILLAGER_STEP->field_187946_ht
+Import: net.minecraft.init.SoundEvents
+Import: net.minecraft.util.SoundEvent
+End  Processing: com/j1hnt/game/minecraft/mod/SoundHelper.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/block/BlockMod.java
+End  Processing: com/j1hnt/game/minecraft/mod/block/BlockMod.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/block/QuickBlock.java
+Rename field net/minecraft/block/material/Material/GROUND[1729,1735]::GROUND->field_151578_c
+Rename field net/minecraft/creativetab/CreativeTabs/MISC[2035,2039]::MISC->field_78026_f
+FOUND CONSTR method com/j1hnt/game/minecraft/mod/block/QuickBlock/QuickBlock ()V com/j1hnt/game/minecraft/mod/block/QuickBlock
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[4015,4033]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[4098,4112]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/material/Material/getMaterialMapColor ()Lnet/minecraft/block/material/MapColor;[4374,4393]::getMaterialMapColor->func_151565_r
+Rename method net/minecraft/block/material/Material/blocksLight ()Z[4450,4461]::blocksLight->func_76228_b
+Rename method net/minecraft/block/Block/getItemDropped (Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;[5587,5601]::getItemDropped->func_180660_a
+Rename method net/minecraft/util/math/BlockPos/add (III)Lnet/minecraft/util/math/BlockPos;[6079,6082]::add->func_177982_a
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z[6198,6211]::setBlockState->func_175656_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[6222,6237]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/Block/randomTick (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;)V[6276,6286]::randomTick->func_180645_a
+Rename method net/minecraft/block/Block/onEntityWalk (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/Entity;)V[6534,6546]::onEntityWalk->func_176199_a
+Rename method net/minecraft/block/Block/onEntityWalk (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/Entity;)V[6684,6696]::onEntityWalk->func_176199_a
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[6772,6795]::getCollisionBoundingBox->func_180646_a
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[6877,6900]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/util/math/AxisAlignedBB/minX[6975,6979]::minX->field_72340_a
+Rename field net/minecraft/util/math/AxisAlignedBB/minY[6999,7003]::minY->field_72338_b
+Rename field net/minecraft/util/math/AxisAlignedBB/minZ[7023,7027]::minZ->field_72339_c
+Rename field net/minecraft/util/math/AxisAlignedBB/maxX[7047,7051]::maxX->field_72336_d
+Rename field net/minecraft/util/math/AxisAlignedBB/maxY[7071,7075]::maxY->field_72337_e
+Rename field net/minecraft/util/math/AxisAlignedBB/maxZ[7095,7099]::maxZ->field_72334_f
+Rename method net/minecraft/world/World/playSound (Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V[7449,7458]::playSound->func_184148_a
+Rename field net/minecraft/entity/Entity/posX[7491,7495]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[7513,7517]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[7535,7539]::posZ->field_70161_v
+Rename method net/minecraft/block/Block/onEntityCollidedWithBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V[7784,7809]::onEntityCollidedWithBlock->func_180634_a
+Rename method net/minecraft/block/Block/onEntityCollidedWithBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V[7874,7899]::onEntityCollidedWithBlock->func_180634_a
+Rename method net/minecraft/block/Block/onBlockAdded (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[8084,8096]::onBlockAdded->func_176213_c
+Rename method net/minecraft/block/Block/onBlockAdded (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V[8157,8169]::onBlockAdded->func_176213_c
+Rename method net/minecraft/world/World/scheduleBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;II)V[8287,8306]::scheduleBlockUpdate->func_180497_b
+Rename method net/minecraft/block/Block/updateTick (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;)V[8361,8371]::updateTick->func_180650_b
+Rename method net/minecraft/world/World/scheduleBlockUpdate (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/Block;II)V[8610,8629]::scheduleBlockUpdate->func_180497_b
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[8745,8756]::spawnEntity->func_72838_d
+Rename method net/minecraft/util/math/Vec3i/getX ()I[8784,8788]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[8805,8809]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[8828,8832]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[9014,9018]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[9050,9054]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[9086,9090]::getZ->func_177952_p
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z[9113,9126]::setBlockState->func_175656_a
+Rename method net/minecraft/world/World/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;DDDDDD[I)V[9218,9231]::spawnParticle->func_175688_a
+Import: java.io.File
+Import: java.io.IOException
+Import: java.lang.reflect.Field
+Import: java.nio.file.Paths
+Import: java.util.Collections
+Import: java.util.HashMap
+Import: java.util.HashSet
+Import: java.util.Map
+Import: java.util.Random
+Import: java.util.Set
+Adding 20 imports
+        com.j1hnt.game.minecraft.mod.BaseMod
+        com.j1hnt.game.minecraft.mod.JSONManager
+        com.j1hnt.game.minecraft.mod.PackageManager
+        net.minecraft.block.Block
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.creativetab.CreativeTabs
+        net.minecraft.entity.Entity
+        net.minecraft.entity.item.EntityItem
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.util.EnumParticleTypes
+        net.minecraft.util.SoundCategory
+        net.minecraft.util.SoundEvent
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+        org.apache.commons.io.FileUtils
+End  Processing: com/j1hnt/game/minecraft/mod/block/QuickBlock.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/item/ItemMod.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraft.item.Item
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+End  Processing: com/j1hnt/game/minecraft/mod/item/ItemMod.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/item/ItemRewardToken.java
+Rename field net/minecraft/creativetab/CreativeTabs/MISC[202,206]::MISC->field_78026_f
+Import: net.minecraft.creativetab.CreativeTabs
+Adding 1 imports
+        com.j1hnt.game.minecraft.mod.item.QuickItem.ItemType
+End  Processing: com/j1hnt/game/minecraft/mod/item/ItemRewardToken.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/item/QuickItem.java
+Rename field net/minecraft/creativetab/CreativeTabs/MISC[1646,1650]::MISC->field_78026_f
+FOUND CONSTR method com/j1hnt/game/minecraft/mod/item/QuickItem/QuickItem ()V com/j1hnt/game/minecraft/mod/item/QuickItem
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[3520,3538]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[3600,3614]::setCreativeTab->func_77637_a
+Rename field net/minecraft/entity/Entity/posX[4881,4885]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[4903,4907]::posY->field_70163_u
+Rename method net/minecraft/entity/Entity/getEyeHeight ()F[4926,4938]::getEyeHeight->func_70047_e
+Rename field net/minecraft/entity/Entity/posZ[4949,4953]::posZ->field_70161_v
+Rename method net/minecraft/entity/Entity/getLookVec ()Lnet/minecraft/util/math/Vec3d;[4991,5001]::getLookVec->func_70040_Z
+Rename method net/minecraft/world/World/rayTraceBlocks (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/RayTraceResult;[5189,5203]::rayTraceBlocks->func_72933_a
+Rename method net/minecraft/util/math/Vec3d/addVector (DDD)Lnet/minecraft/util/math/Vec3d;[5222,5231]::addVector->func_72441_c
+Rename field net/minecraft/util/math/Vec3d/x[5243,5244]::x->field_72450_a
+Rename field net/minecraft/util/math/Vec3d/y[5274,5275]::y->field_72448_b
+Rename field net/minecraft/util/math/Vec3d/z[5305,5306]::z->field_72449_c
+Rename method net/minecraft/util/math/RayTraceResult/getBlockPos ()Lnet/minecraft/util/math/BlockPos;[5401,5412]::getBlockPos->func_178782_a
+Rename method net/minecraft/util/math/BlockPos/offset (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/math/BlockPos;[5417,5423]::offset->func_177972_a
+Rename field net/minecraft/util/math/RayTraceResult/sideHit[5440,5447]::sideHit->field_178784_b
+Rename method net/minecraft/entity/Entity/setPosition (DDD)V[5709,5720]::setPosition->func_70107_b
+Rename method net/minecraft/util/math/Vec3i/getX ()I[5728,5732]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[5751,5755]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[5774,5778]::getZ->func_177952_p
+Rename method net/minecraft/world/World/addWeatherEffect (Lnet/minecraft/entity/Entity;)Z[6041,6057]::addWeatherEffect->func_72942_c
+Rename method net/minecraft/util/math/Vec3i/getX ()I[6091,6095]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[6114,6118]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[6137,6141]::getZ->func_177952_p
+Rename field net/minecraft/world/World/isRemote[6652,6660]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/createExplosion (Lnet/minecraft/entity/Entity;DDDFZ)Lnet/minecraft/world/Explosion;[6677,6692]::createExplosion->func_72876_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[6704,6708]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[6727,6731]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[6750,6754]::getZ->func_177952_p
+Rename method net/minecraft/world/World/playSound (Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V[7059,7068]::playSound->func_184148_a
+Rename field net/minecraft/entity/Entity/posX[7101,7105]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[7123,7127]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[7145,7149]::posZ->field_70161_v
+Rename field net/minecraft/item/Item/itemRand[7209,7217]::itemRand->field_77697_d
+Rename field net/minecraft/world/World/isRemote[7468,7476]::isRemote->field_72995_K
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[7496,7507]::sendMessage->func_145747_a
+Rename field net/minecraft/entity/Entity/posX[8053,8057]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/width[8100,8105]::width->field_70130_N
+Rename field net/minecraft/entity/Entity/posY[8137,8141]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/height[8176,8182]::height->field_70131_O
+Rename method net/minecraft/entity/Entity/getYOffset ()D[8199,8209]::getYOffset->func_70033_W
+Rename field net/minecraft/entity/Entity/posZ[8237,8241]::posZ->field_70161_v
+Rename field net/minecraft/entity/Entity/width[8284,8289]::width->field_70130_N
+Rename method net/minecraft/world/World/spawnParticle (Lnet/minecraft/util/EnumParticleTypes;DDDDDD[I)V[8309,8322]::spawnParticle->func_175688_a
+Rename method net/minecraft/item/Item/onItemRightClick (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;[8406,8422]::onItemRightClick->func_77659_a
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[8838,8849]::getHeldItem->func_184586_b
+Import: java.io.File
+Import: java.io.IOException
+Import: java.nio.file.Paths
+Import: java.util.Collections
+Import: java.util.HashMap
+Import: java.util.HashSet
+Import: java.util.Map
+Import: java.util.Set
+Adding 21 imports
+        com.j1hnt.game.minecraft.mod.BaseMod
+        com.j1hnt.game.minecraft.mod.JSONManager
+        com.j1hnt.game.minecraft.mod.PackageManager
+        net.minecraft.creativetab.CreativeTabs
+        net.minecraft.entity.Entity
+        net.minecraft.entity.effect.EntityLightningBolt
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.util.ActionResult
+        net.minecraft.util.EnumActionResult
+        net.minecraft.util.EnumHand
+        net.minecraft.util.EnumParticleTypes
+        net.minecraft.util.SoundCategory
+        net.minecraft.util.SoundEvent
+        net.minecraft.util.math.BlockPos
+        net.minecraft.util.math.RayTraceResult
+        net.minecraft.util.math.Vec3d
+        net.minecraft.util.text.TextComponentString
+        net.minecraft.world.World
+        org.apache.commons.io.FileUtils
+End  Processing: com/j1hnt/game/minecraft/mod/item/QuickItem.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/proxy/ClientProxy.java
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[745,757]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getRenderItem ()Lnet/minecraft/client/renderer/RenderItem;[760,773]::getRenderItem->func_175599_af
+Rename method net/minecraft/client/renderer/RenderItem/getItemModelMesher ()Lnet/minecraft/client/renderer/ItemModelMesher;[792,810]::getItemModelMesher->func_175037_a
+Rename method net/minecraft/client/renderer/ItemModelMesher/register (Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V[808,816]::register->func_178086_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1407,1419]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getRenderItem ()Lnet/minecraft/client/renderer/RenderItem;[1422,1435]::getRenderItem->func_175599_af
+Rename method net/minecraft/client/renderer/RenderItem/getItemModelMesher ()Lnet/minecraft/client/renderer/ItemModelMesher;[1454,1472]::getItemModelMesher->func_175037_a
+Rename method net/minecraft/client/renderer/ItemModelMesher/register (Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V[1470,1478]::register->func_178086_a
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1489,1505]::getItemFromBlock->func_150898_a
+Import: com.j1hnt.game.minecraft.mod.BaseMod
+Adding 5 imports
+        net.minecraft.block.Block
+        net.minecraft.client.Minecraft
+        net.minecraft.client.renderer.RenderItem
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+End  Processing: com/j1hnt/game/minecraft/mod/proxy/ClientProxy.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/proxy/CommonProxy.java
+Import: net.minecraft.block.Block
+Import: net.minecraft.item.Item
+End  Processing: com/j1hnt/game/minecraft/mod/proxy/CommonProxy.java
+
+Start Processing: com/j1hnt/game/minecraft/mod/world/WorldMod.java
+Rename method net/minecraft/world/biome/Biome/getBiome (I)Lnet/minecraft/world/biome/Biome;[543,551]::getBiome->func_150568_d
+Rename field net/minecraft/world/biome/Biome/REGISTRY[1102,1110]::REGISTRY->field_185377_q
+Rename method net/minecraft/util/registry/RegistryNamespaced/register (ILjava/lang/Object;Ljava/lang/Object;)V[1117,1125]::register->func_177775_a
+Rename method net/minecraft/world/biome/Biome/getBiomeName ()Ljava/lang/String;[1163,1175]::getBiomeName->func_185359_l
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.world.biome.Biome
+Import: net.minecraftforge.common.BiomeManager
+Import: net.minecraftforge.common.BiomeManager.BiomeEntry
+Import: net.minecraftforge.common.BiomeManager.BiomeType
+End  Processing: com/j1hnt/game/minecraft/mod/world/WorldMod.java
+

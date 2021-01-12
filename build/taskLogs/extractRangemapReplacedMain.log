@@ -1,0 +1,43 @@
+Unsupposrted library path: C:\Users\jacob\Desktop\CCReloadedUtils\build\classes\api
+Unsupposrted library path: C:\Users\jacob\Desktop\CCReloadedUtils\build\resources\api
+Symbol range map extraction starting
+Processing 13 files
+startProcessing "com/j1hnt/game/minecraft/mod/BaseMod.java" md5: 325fd21aa6a0d6a41a27e5eafbe7f6c5
+endProcessing "com/j1hnt/game/minecraft/mod/BaseMod.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/JSONManager.java" md5: 9eaf5e646e88fb6de986e8b18e8a3574
+endProcessing "com/j1hnt/game/minecraft/mod/JSONManager.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/LanguageLocalization.java" md5: 4643c99330655825767395887f052b2d
+endProcessing "com/j1hnt/game/minecraft/mod/LanguageLocalization.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/PackageManager.java" md5: e100fa5f599d69a2d848ebe1a7ef66bc
+endProcessing "com/j1hnt/game/minecraft/mod/PackageManager.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/SoundHelper.java" md5: 26c4c3aedbe68be249989b21d2ed9331
+endProcessing "com/j1hnt/game/minecraft/mod/SoundHelper.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/block/BlockMod.java" md5: ef5f3c5b4f261586c4067f7f235b70b0
+endProcessing "com/j1hnt/game/minecraft/mod/block/BlockMod.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/block/QuickBlock.java" md5: ca00239a81ec56849d11119758a0539b
+endProcessing "com/j1hnt/game/minecraft/mod/block/QuickBlock.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/item/ItemMod.java" md5: aa6924b3846eaa2e74059fc87d7013ed
+endProcessing "com/j1hnt/game/minecraft/mod/item/ItemMod.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/item/ItemRewardToken.java" md5: 3372f90c81074a6c8ee843b16610115a
+endProcessing "com/j1hnt/game/minecraft/mod/item/ItemRewardToken.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/item/QuickItem.java" md5: 62a31d6941b9612a8bec19a148d18178
+endProcessing "com/j1hnt/game/minecraft/mod/item/QuickItem.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/proxy/ClientProxy.java" md5: 3fc9b146d1b351a492774f371fde1a69
+endProcessing "com/j1hnt/game/minecraft/mod/proxy/ClientProxy.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/proxy/CommonProxy.java" md5: 9980e421732d35c10e063d3f43860ab1
+endProcessing "com/j1hnt/game/minecraft/mod/proxy/CommonProxy.java"
+
+startProcessing "com/j1hnt/game/minecraft/mod/world/WorldMod.java" md5: 112f579dd957bc328e665085fd9d4693
+endProcessing "com/j1hnt/game/minecraft/mod/world/WorldMod.java"
+
