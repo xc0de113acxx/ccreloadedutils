@@ -1,0 +1,215 @@
+[10:40:18] [main/INFO] [GradleStart]: Extra: []
+[10:40:18] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/jacob/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:40:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:40:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:40:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:40:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:40:18] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[10:40:18] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_221, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_221\jre
+[10:40:18] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[10:40:18] [main/ERROR] [FML]: Full: C:\Users\jacob\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[10:40:18] [main/ERROR] [FML]: Trimmed: c:/users/jacob/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[10:40:18] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:40:18] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[10:40:19] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[10:40:19] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[10:40:19] [main/INFO] [FML]: Searching C:\Users\jacob\Desktop\CCReloadedUtils\run\.\mods for mods
+[10:40:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:40:19] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[10:40:19] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:40:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:40:19] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[10:40:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:40:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:40:19] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:40:20] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player685
+[10:40:21] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[10:40:21] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[10:40:22] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 252428744 bytes (240 MB) / 590872576 bytes (563 MB) up to 3799515136 bytes (3623 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 460.79' Renderer: 'GeForce GTX 1660 Ti/PCIe/SSE2'
+[10:40:22] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[10:40:22] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[10:40:22] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[10:40:22] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[10:40:22] [Client thread/INFO] [FML]: Searching C:\Users\jacob\Desktop\CCReloadedUtils\run\.\mods for mods
+[10:40:23] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[10:40:23] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ccreloadedutils] at CLIENT
+[10:40:23] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ccreloadedutils] at SERVER
+[10:40:23] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CoolCraft Reloaded Utilities
+[10:40:23] [Client thread/WARN] [net.minecraft.client.resources.AbstractResourcePack]: ResourcePack: ignored non-lowercase namespace: Thumbs.db in C:\Users\jacob\Desktop\CCReloadedUtils\build\libs\ccreloadedutils-1.0.jar
+[10:40:23] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[10:40:24] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[10:40:24] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[10:40:24] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[10:40:24] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[10:40:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:33]: Loading Classes in Package: com.j1hnt.game.minecraft.mod.item
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:43]: Directory String: file:/C:/Users/jacob/Desktop/CCReloadedUtils/build/libs/ccreloadedutils-1.0.jar!/com/j1hnt/game/minecraft/mod/item
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:65]: Opened Jar File Filesystem
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: item
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: QuickItem.class
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: QuickItem$ItemType.class
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: ItemRewardToken.class
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: ItemMod.class
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.item.QuickItem:preInit:105]: Quick Item Registry Size: 1
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.item.QuickItem:preInit:109]: preInit: Reward Token
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:33]: Loading Classes in Package: com.j1hnt.game.minecraft.mod.block
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:43]: Directory String: file:/C:/Users/jacob/Desktop/CCReloadedUtils/build/libs/ccreloadedutils-1.0.jar!/com/j1hnt/game/minecraft/mod/block
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: block
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: QuickBlock.class
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: QuickBlock$BlockType.class
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.PackageManager:loadClassesInPackage:74]: File Name: BlockMod.class
+[10:40:24] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.block.QuickBlock:preInit:124]: Quick Block Registry Size: 0
+[10:40:24] [Client thread/INFO] [FML]: Applying holder lookups
+[10:40:24] [Client thread/INFO] [FML]: Holder lookups applied
+[10:40:24] [Client thread/INFO] [FML]: Applying holder lookups
+[10:40:24] [Client thread/INFO] [FML]: Holder lookups applied
+[10:40:24] [Client thread/INFO] [FML]: Applying holder lookups
+[10:40:24] [Client thread/INFO] [FML]: Holder lookups applied
+[10:40:24] [Client thread/INFO] [FML]: Applying holder lookups
+[10:40:24] [Client thread/INFO] [FML]: Holder lookups applied
+[10:40:24] [Client thread/INFO] [FML]: Injecting itemstacks
+[10:40:24] [Client thread/INFO] [FML]: Itemstack injection complete
+[10:40:24] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
+[10:40:24] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 177395100 nanos
+[10:40:26] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[10:40:26] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[10:40:26] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:40:26] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[10:40:26] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[10:40:29] [Client thread/INFO] [FML]: Max texture size: 16384
+[10:40:29] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[10:40:30] [Client thread/ERROR] [FML]: Parsing error loading recipe ccreloadedutils:shapelesscrafting
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:439) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(JsonUtils.java:485) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:720) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_221]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:582) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1393) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:549) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:716) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[TypeAdapters$35$1.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:435) ~[JsonUtils.class:?]
+	... 23 more
+[10:40:30] [Client thread/ERROR] [FML]: Parsing error loading recipe ccreloadedutils:shapedcrafting
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:439) ~[JsonUtils.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(JsonUtils.java:485) ~[JsonUtils.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.lambda$loadRecipes$22(CraftingHelper.java:720) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.findFiles(CraftingHelper.java:833) ~[CraftingHelper.class:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:688) ~[CraftingHelper.class:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) [?:1.8.0_221]
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:633) [CraftingHelper.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:582) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1393) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:549) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:716) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[TypeAdapters$29.class:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[TypeAdapters$35$1.class:?]
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:435) ~[JsonUtils.class:?]
+	... 23 more
+[10:40:30] [Client thread/INFO] [FML]: Applying holder lookups
+[10:40:30] [Client thread/INFO] [FML]: Holder lookups applied
+[10:40:30] [Client thread/INFO] [STDOUT]: [com.j1hnt.game.minecraft.mod.item.QuickItem:init:121]: init: Reward Token
+[10:40:30] [Client thread/INFO] [FML]: Injecting itemstacks
+[10:40:30] [Client thread/INFO] [FML]: Itemstack injection complete
+[10:40:30] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[10:40:30] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[10:40:30] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[10:40:31] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[10:40:32] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[10:40:32] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[10:40:32] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[10:40:32] [Server thread/INFO] [FML]: Applying holder lookups
+[10:40:32] [Server thread/INFO] [FML]: Holder lookups applied
+[10:40:32] [Server thread/INFO] [FML]: Loading dimension 0 (rewardtoken) (net.minecraft.server.integrated.IntegratedServer@1625dd67)
+[10:40:33] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[10:40:33] [Server thread/INFO] [FML]: Loading dimension -1 (rewardtoken) (net.minecraft.server.integrated.IntegratedServer@1625dd67)
+[10:40:33] [Server thread/INFO] [FML]: Loading dimension 1 (rewardtoken) (net.minecraft.server.integrated.IntegratedServer@1625dd67)
+[10:40:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[10:40:34] [Server thread/INFO] [FML]: Unloading dimension -1
+[10:40:34] [Server thread/INFO] [FML]: Unloading dimension 1
+[10:40:34] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[10:40:35] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[10:40:35] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[10:40:35] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2847,mcp@9.42,ccreloadedutils@1.0
+[10:40:35] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[10:40:35] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[10:40:35] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player685[local:E:68bad05a] logged in with entity id 401 at (-209.19132922840532, 84.8440712789996, 253.48147062680442)
+[10:40:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player685 joined the game
+[10:40:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[10:40:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'rewardtoken'/overworld
+[10:40:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[10:40:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'rewardtoken'/overworld
+[10:40:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[10:40:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[10:40:47] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player685 lost connection: Disconnected
+[10:40:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player685 left the game
+[10:40:47] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[10:40:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[10:40:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'rewardtoken'/overworld
+[10:40:47] [Server thread/INFO] [FML]: Unloading dimension 0
+[10:40:47] [Server thread/INFO] [FML]: Applying holder lookups
+[10:40:47] [Server thread/INFO] [FML]: Holder lookups applied
+[10:40:49] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[10:40:49] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[10:40:49] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
